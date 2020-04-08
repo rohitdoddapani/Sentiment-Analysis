@@ -1,0 +1,23 @@
+{
+  "name": "sentilizer_api",
+  "version": "1.0.0",
+  "description": "A restful JSON API server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "client":"npm start --prefix frontend",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "author": "RohitDoddapani",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "hapi": "^18.1.0",
+    "python-shell": "^1.0.8"
+  }
+}

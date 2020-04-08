@@ -1,0 +1,1 @@
+Sentiment Analysis UI used reactjs as the stack for frontend
